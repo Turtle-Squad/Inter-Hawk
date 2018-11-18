@@ -121,7 +121,7 @@ public class QTEController : MonoBehaviour
             passBox.GetComponent<Text>().text = "";
             displayBox.GetComponent<Text>().text = "";
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(Random.Range(1.5f, 3.0f));
 
             displayAll.SetActive(true);
             WaitingForKey = 0;
@@ -145,7 +145,7 @@ public class QTEController : MonoBehaviour
             passBox.GetComponent<Text>().text = "";
             displayBox.GetComponent<Text>().text = "";
 
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(Random.Range(1.5f, 3.0f));
 
             playerHitado = false;
             displayAll.SetActive(true);
@@ -172,7 +172,7 @@ public class QTEController : MonoBehaviour
             CorrectKey = 0;
             passBox.GetComponent<Text>().text = "";
             displayBox.GetComponent<Text>().text = "";
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(Random.Range(1.5f, 3.0f));
             WaitingForKey = 0;
             CountingDown = 1;
             playerHitado = false;

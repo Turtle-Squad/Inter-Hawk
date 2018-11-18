@@ -8,6 +8,8 @@ public class QTEController : MonoBehaviour
     public GameObject displayBox;
     public GameObject passBox;
     public GameObject displayAll;
+    public GameObject LaserBeam, LaserBeamEnd;
+    static public bool playerHitado;
     public int QTEgen;
     public int WaitingForKey;
     public int CorrectKey;
@@ -128,11 +130,16 @@ public class QTEController : MonoBehaviour
         if (CorrectKey == 2)
         {
             CountingDown = 2;
+            playerHitado = true;
             passBox.GetComponent<Text>().text = "-1 HEALTH";
+            LaserBeam.SetActive(true);
+            LaserBeamEnd.SetActive(true);
             HealthController.vida -= 20f;
 
             yield return new WaitForSeconds(1.5f);
 
+            LaserBeam.SetActive(false);
+            LaserBeamEnd.SetActive(false);
             displayAll.SetActive(false);
             CorrectKey = 0;
             passBox.GetComponent<Text>().text = "";
@@ -140,6 +147,7 @@ public class QTEController : MonoBehaviour
 
             yield return new WaitForSeconds(1.5f);
 
+            playerHitado = false;
             displayAll.SetActive(true);
             WaitingForKey = 0;
             CountingDown = 1;
@@ -153,15 +161,22 @@ public class QTEController : MonoBehaviour
         {
             QTEgen = 4;
             CountingDown = 2;
+            playerHitado = true;
+            LaserBeam.SetActive(true);
+            LaserBeamEnd.SetActive(true);
             passBox.GetComponent<Text>().text = "-1 HEALTH";
             HealthController.vida -= 20f;
             yield return new WaitForSeconds(1.5f);
+            LaserBeam.SetActive(false);
+            LaserBeamEnd.SetActive(false);
             CorrectKey = 0;
             passBox.GetComponent<Text>().text = "";
             displayBox.GetComponent<Text>().text = "";
             yield return new WaitForSeconds(1.5f);
             WaitingForKey = 0;
             CountingDown = 1;
+            playerHitado = false;
+
         }
     }
     

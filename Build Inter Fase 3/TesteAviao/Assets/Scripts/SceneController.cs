@@ -55,16 +55,19 @@ public class SceneController : MonoBehaviour {
     public void AfterMenu()
     {
         SceneManager.LoadScene("Cutscene1");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterCutscene1()
     {
         SceneManager.LoadScene("Fase1");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterFase1()
     {
         SceneManager.LoadScene("Cutscene2");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterCutscene2()
@@ -75,21 +78,25 @@ public class SceneController : MonoBehaviour {
     public void AfterFase2()
     {
         SceneManager.LoadScene("Cutscene3");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterCutscene3()
     {
         SceneManager.LoadScene("Fase3");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterFase3()
     {
         SceneManager.LoadScene("CutsceneFinal");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void AfterCutsceneFinal()
     {
         SceneManager.LoadScene("Menu");
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void QuitGame()

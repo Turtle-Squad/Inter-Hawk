@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1030487481180210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 46.419342, y: -1, z: -111.278625}
   m_LocalScale: {x: 0.28173423, y: 0.28173423, z: 0.28173423}
   m_Children: []
   m_Father: {fileID: 0}
@@ -95,11 +95,11 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 1
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 48
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &114107439135506492
 MonoBehaviour:
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: {fileID: 4177124341605348}
-  target: {x: 0, y: 1.186, z: 0}
+  target: {fileID: 4032885392605452, guid: d00966887d64f0b4c8e551492eff5318, type: 2}
 --- !u!135 &135905172194170484
 SphereCollider:
   m_ObjectHideFlags: 1

@@ -1,0 +1,1138 @@
+fileFormatVersion: 2
+guid: e21b6f557e4a28b4c8f70ec17119639e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Ref:AnkleToe_null
+    100004: Ref:AnkleToe_null 1
+    100006: Ref:Back_IK
+    100008: Ref:BackIK_Curve
+    100010: Ref:BallAnkle_null
+    100012: Ref:BallAnkle_null 1
+    100014: Ref:BallToe_null
+    100016: Ref:BallToe_null 1
+    100018: Ref:BallY_null
+    100020: Ref:BallY_null 1
+    100022: Ref:Belly_Ctrl
+    100024: Ref:BellyCluster
+    100026: Ref:Body_Ctrl
+    100028: Ref:Head_1
+    100030: Ref:Head_2
+    100032: Ref:Head_Ctrl
+    100034: Ref:HeadNeck_Ctrls_null
+    100036: Ref:joint1
+    100038: Ref:joint2
+    100040: Ref:joint3
+    100042: Ref:L_Ankle_IK
+    100044: Ref:L_Arm_Ctrls
+    100046: Ref:L_Arm_IK
+    100048: Ref:L_Ball_IK
+    100050: Ref:L_Calcanhar
+    100052: Ref:L_Elbow
+    100054: Ref:L_Elbow_Ctrl
+    100056: Ref:L_Foot_Ctrl
+    100058: Ref:L_Hand
+    100060: Ref:L_Hand_Ctrl
+    100062: Ref:L_Hip
+    100064: Ref:L_Knee
+    100066: Ref:L_KneeCtrl
+    100068: Ref:L_PeMeio
+    100070: Ref:L_PePonta
+    100072: Ref:L_Shldr
+    100074: Ref:L_Shldr_Ctrl
+    100076: Ref:L_Shldr_IK
+    100078: Ref:L_Shldr_Roll
+    100080: Ref:L_Toe_IK
+    100082: Ref:L_Wrist
+    100084: Ref:Modelagem_robo_gigante_pronto:pCube8
+    100086: Ref:Modelagem_robo_gigante_pronto:pCylinder6
+    100088: Ref:Modelagem_robo_gigante_pronto:polySurface1
+    100090: Ref:Modelagem_robo_gigante_pronto:polySurface10
+    100092: Ref:Modelagem_robo_gigante_pronto:polySurface11
+    100094: Ref:Modelagem_robo_gigante_pronto:polySurface12
+    100096: Ref:Modelagem_robo_gigante_pronto:polySurface13
+    100098: Ref:Modelagem_robo_gigante_pronto:polySurface14
+    100100: Ref:Modelagem_robo_gigante_pronto:polySurface15
+    100102: Ref:Modelagem_robo_gigante_pronto:polySurface16
+    100104: Ref:Modelagem_robo_gigante_pronto:polySurface16 1
+    100106: Ref:Modelagem_robo_gigante_pronto:polySurface17
+    100108: Ref:Modelagem_robo_gigante_pronto:polySurface2
+    100110: Ref:Modelagem_robo_gigante_pronto:polySurface3
+    100112: Ref:Modelagem_robo_gigante_pronto:polySurface32
+    100114: Ref:Modelagem_robo_gigante_pronto:polySurface51
+    100116: Ref:Modelagem_robo_gigante_pronto:polySurface57
+    100118: Ref:Modelagem_robo_gigante_pronto:polySurface66
+    100120: Ref:Modelagem_robo_gigante_pronto:polySurface67
+    100122: Ref:Modelagem_robo_gigante_pronto:polySurface68
+    100124: Ref:Modelagem_robo_gigante_pronto:polySurface7
+    100126: Ref:Modelagem_robo_gigante_pronto:polySurface70
+    100128: Ref:Modelagem_robo_gigante_pronto:polySurface72
+    100130: Ref:Modelagem_robo_gigante_pronto:polySurface74
+    100132: Ref:Modelagem_robo_gigante_pronto:pSphere3
+    100134: Ref:Modelagem_robo_gigante_pronto:transform10
+    100136: Ref:Modelagem_robo_gigante_pronto:transform11
+    100138: Ref:Modelagem_robo_gigante_pronto:transform12
+    100140: Ref:Modelagem_robo_gigante_pronto:transform13
+    100142: Ref:Modelagem_robo_gigante_pronto:transform14
+    100144: Ref:Modelagem_robo_gigante_pronto:transform15
+    100146: Ref:Modelagem_robo_gigante_pronto:transform16
+    100148: Ref:Modelagem_robo_gigante_pronto:transform17
+    100150: Ref:Modelagem_robo_gigante_pronto:transform18
+    100152: Ref:Modelagem_robo_gigante_pronto:transform19
+    100154: Ref:Modelagem_robo_gigante_pronto:transform20
+    100156: Ref:Modelagem_robo_gigante_pronto:transform21
+    100158: Ref:Modelagem_robo_gigante_pronto:transform22
+    100160: Ref:Modelagem_robo_gigante_pronto:transform23
+    100162: Ref:Modelagem_robo_gigante_pronto:transform3
+    100164: Ref:Modelagem_robo_gigante_pronto:transform4
+    100166: Ref:Modelagem_robo_gigante_pronto:transform5
+    100168: Ref:Modelagem_robo_gigante_pronto:transform6
+    100170: Ref:Modelagem_robo_gigante_pronto:transform7
+    100172: Ref:Modelagem_robo_gigante_pronto:transform8
+    100174: Ref:Modelagem_robo_gigante_pronto:transform9
+    100176: Ref:Neck_Ctrl
+    100178: Ref:Neck_root
+    100180: Ref:R_Ankle_IK
+    100182: Ref:R_Arm_Ctrls
+    100184: Ref:R_Arm_IK
+    100186: Ref:R_Ball_IK
+    100188: Ref:R_Calcanhar
+    100190: Ref:R_Elbow
+    100192: Ref:R_Elbow_Ctrl
+    100194: Ref:R_Foot_Ctrl
+    100196: Ref:R_Hand
+    100198: Ref:R_Hand_Ctrl
+    100200: Ref:R_Hip
+    100202: Ref:R_Knee
+    100204: Ref:R_KneeCtrl
+    100206: Ref:R_PeMeio
+    100208: Ref:R_PePonta
+    100210: Ref:R_Shldr
+    100212: Ref:R_Shldr_Ctrl
+    100214: Ref:R_Shldr_IK
+    100216: Ref:R_Shldr_Roll
+    100218: Ref:R_Toe_IK
+    100220: Ref:R_Wrist
+    100222: Ref:ROOT
+    100224: Ref:ToeAnkle_null
+    100226: Ref:ToeAnkle_null 1
+    100228: Ref:Torax_Ctrl
+    100230: Ref:Torax_Offset
+    100232: Ref:ToraxCluster
+    100234: Ref:Weist_Ctrl
+    100236: Ref:WeistCluster
+    400000: //RootNode
+    400002: Ref:AnkleToe_null
+    400004: Ref:AnkleToe_null 1
+    400006: Ref:Back_IK
+    400008: Ref:BackIK_Curve
+    400010: Ref:BallAnkle_null
+    400012: Ref:BallAnkle_null 1
+    400014: Ref:BallToe_null
+    400016: Ref:BallToe_null 1
+    400018: Ref:BallY_null
+    400020: Ref:BallY_null 1
+    400022: Ref:Belly_Ctrl
+    400024: Ref:BellyCluster
+    400026: Ref:Body_Ctrl
+    400028: Ref:Head_1
+    400030: Ref:Head_2
+    400032: Ref:Head_Ctrl
+    400034: Ref:HeadNeck_Ctrls_null
+    400036: Ref:joint1
+    400038: Ref:joint2
+    400040: Ref:joint3
+    400042: Ref:L_Ankle_IK
+    400044: Ref:L_Arm_Ctrls
+    400046: Ref:L_Arm_IK
+    400048: Ref:L_Ball_IK
+    400050: Ref:L_Calcanhar
+    400052: Ref:L_Elbow
+    400054: Ref:L_Elbow_Ctrl
+    400056: Ref:L_Foot_Ctrl
+    400058: Ref:L_Hand
+    400060: Ref:L_Hand_Ctrl
+    400062: Ref:L_Hip
+    400064: Ref:L_Knee
+    400066: Ref:L_KneeCtrl
+    400068: Ref:L_PeMeio
+    400070: Ref:L_PePonta
+    400072: Ref:L_Shldr
+    400074: Ref:L_Shldr_Ctrl
+    400076: Ref:L_Shldr_IK
+    400078: Ref:L_Shldr_Roll
+    400080: Ref:L_Toe_IK
+    400082: Ref:L_Wrist
+    400084: Ref:Modelagem_robo_gigante_pronto:pCube8
+    400086: Ref:Modelagem_robo_gigante_pronto:pCylinder6
+    400088: Ref:Modelagem_robo_gigante_pronto:polySurface1
+    400090: Ref:Modelagem_robo_gigante_pronto:polySurface10
+    400092: Ref:Modelagem_robo_gigante_pronto:polySurface11
+    400094: Ref:Modelagem_robo_gigante_pronto:polySurface12
+    400096: Ref:Modelagem_robo_gigante_pronto:polySurface13
+    400098: Ref:Modelagem_robo_gigante_pronto:polySurface14
+    400100: Ref:Modelagem_robo_gigante_pronto:polySurface15
+    400102: Ref:Modelagem_robo_gigante_pronto:polySurface16
+    400104: Ref:Modelagem_robo_gigante_pronto:polySurface16 1
+    400106: Ref:Modelagem_robo_gigante_pronto:polySurface17
+    400108: Ref:Modelagem_robo_gigante_pronto:polySurface2
+    400110: Ref:Modelagem_robo_gigante_pronto:polySurface3
+    400112: Ref:Modelagem_robo_gigante_pronto:polySurface32
+    400114: Ref:Modelagem_robo_gigante_pronto:polySurface51
+    400116: Ref:Modelagem_robo_gigante_pronto:polySurface57
+    400118: Ref:Modelagem_robo_gigante_pronto:polySurface66
+    400120: Ref:Modelagem_robo_gigante_pronto:polySurface67
+    400122: Ref:Modelagem_robo_gigante_pronto:polySurface68
+    400124: Ref:Modelagem_robo_gigante_pronto:polySurface7
+    400126: Ref:Modelagem_robo_gigante_pronto:polySurface70
+    400128: Ref:Modelagem_robo_gigante_pronto:polySurface72
+    400130: Ref:Modelagem_robo_gigante_pronto:polySurface74
+    400132: Ref:Modelagem_robo_gigante_pronto:pSphere3
+    400134: Ref:Modelagem_robo_gigante_pronto:transform10
+    400136: Ref:Modelagem_robo_gigante_pronto:transform11
+    400138: Ref:Modelagem_robo_gigante_pronto:transform12
+    400140: Ref:Modelagem_robo_gigante_pronto:transform13
+    400142: Ref:Modelagem_robo_gigante_pronto:transform14
+    400144: Ref:Modelagem_robo_gigante_pronto:transform15
+    400146: Ref:Modelagem_robo_gigante_pronto:transform16
+    400148: Ref:Modelagem_robo_gigante_pronto:transform17
+    400150: Ref:Modelagem_robo_gigante_pronto:transform18
+    400152: Ref:Modelagem_robo_gigante_pronto:transform19
+    400154: Ref:Modelagem_robo_gigante_pronto:transform20
+    400156: Ref:Modelagem_robo_gigante_pronto:transform21
+    400158: Ref:Modelagem_robo_gigante_pronto:transform22
+    400160: Ref:Modelagem_robo_gigante_pronto:transform23
+    400162: Ref:Modelagem_robo_gigante_pronto:transform3
+    400164: Ref:Modelagem_robo_gigante_pronto:transform4
+    400166: Ref:Modelagem_robo_gigante_pronto:transform5
+    400168: Ref:Modelagem_robo_gigante_pronto:transform6
+    400170: Ref:Modelagem_robo_gigante_pronto:transform7
+    400172: Ref:Modelagem_robo_gigante_pronto:transform8
+    400174: Ref:Modelagem_robo_gigante_pronto:transform9
+    400176: Ref:Neck_Ctrl
+    400178: Ref:Neck_root
+    400180: Ref:R_Ankle_IK
+    400182: Ref:R_Arm_Ctrls
+    400184: Ref:R_Arm_IK
+    400186: Ref:R_Ball_IK
+    400188: Ref:R_Calcanhar
+    400190: Ref:R_Elbow
+    400192: Ref:R_Elbow_Ctrl
+    400194: Ref:R_Foot_Ctrl
+    400196: Ref:R_Hand
+    400198: Ref:R_Hand_Ctrl
+    400200: Ref:R_Hip
+    400202: Ref:R_Knee
+    400204: Ref:R_KneeCtrl
+    400206: Ref:R_PeMeio
+    400208: Ref:R_PePonta
+    400210: Ref:R_Shldr
+    400212: Ref:R_Shldr_Ctrl
+    400214: Ref:R_Shldr_IK
+    400216: Ref:R_Shldr_Roll
+    400218: Ref:R_Toe_IK
+    400220: Ref:R_Wrist
+    400222: Ref:ROOT
+    400224: Ref:ToeAnkle_null
+    400226: Ref:ToeAnkle_null 1
+    400228: Ref:Torax_Ctrl
+    400230: Ref:Torax_Offset
+    400232: Ref:ToraxCluster
+    400234: Ref:Weist_Ctrl
+    400236: Ref:WeistCluster
+    2100000: Ref_lambert2
+    4300000: Ref:Modelagem_robo_gigante_pronto:polySurface16
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Ref:Modelagem_robo_gigante_pronto:polySurface16
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 101
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Ref:ROOT
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Hip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Hip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Knee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Knee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Calcanhar
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Calcanhar
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:joint1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:joint2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:Neck_root
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:Head_1
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Shldr_Roll
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Shldr_Roll
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Shldr
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Shldr
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Elbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Elbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_Wrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_Wrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:L_PePonta
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:R_PePonta
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:Head_2
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Ref:joint3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: AnimatedRobot(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Back_IK
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.001988992, y: 0.060601547, z: 0}
+      rotation: {x: 0, y: 0, z: -0.70377344, w: 0.7104245}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BackIK_Curve
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Body_Ctrl
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.0020537884, y: 0.05270876, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Belly_Ctrl
+      parentName: Ref:Body_Ctrl
+      position: {x: -0, y: 0.0039464426, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BellyCluster
+      parentName: Ref:Belly_Ctrl
+      position: {x: -0.000025783393, y: 0.0000000019913762, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Arm_Ctrls
+      parentName: Ref:Belly_Ctrl
+      position: {x: -0.0020537884, y: -0.056655202, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Elbow_Ctrl
+      parentName: Ref:L_Arm_Ctrls
+      position: {x: -0.019881533, y: 0.06511456, z: -0.027324408}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Hand_Ctrl
+      parentName: Ref:L_Arm_Ctrls
+      position: {x: -0.009978082, y: 0.038609385, z: -0.0011234344}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Arm_IK
+      parentName: Ref:L_Hand_Ctrl
+      position: {x: -0.000091314316, y: -0.00031889437, z: 0.00008909851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Shldr_Ctrl
+      parentName: Ref:L_Arm_Ctrls
+      position: {x: -0.006043768, y: 0.06692374, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Shldr_IK
+      parentName: Ref:L_Shldr_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0.35863823, w: 0.9334767}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Arm_Ctrls
+      parentName: Ref:Belly_Ctrl
+      position: {x: -0.00006479621, y: 0.0039463425, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Elbow_Ctrl
+      parentName: Ref:R_Arm_Ctrls
+      position: {x: 0.021791905, y: 0.0045130537, z: -0.027313044}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Hand_Ctrl
+      parentName: Ref:R_Arm_Ctrls
+      position: {x: 0.011665654, y: -0.02249989, z: -0.0010343399}
+      rotation: {x: 0, y: -0, z: -0.7071068, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Arm_IK
+      parentName: Ref:R_Hand_Ctrl
+      position: {x: 5.5694577e-11, y: -6.8359374e-10, z: -3.56102e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Shldr_Ctrl
+      parentName: Ref:R_Arm_Ctrls
+      position: {x: 0.007954177, y: 0.006322165, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Shldr_IK
+      parentName: Ref:R_Shldr_Ctrl
+      position: {x: -0, y: 0, z: 6.544057e-34}
+      rotation: {x: 0.9334767, y: -0.35863823, z: 2.1960259e-17, w: -5.715897e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Torax_Offset
+      parentName: Ref:Body_Ctrl
+      position: {x: -0.000025862455, y: 0.0037536668, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Torax_Ctrl
+      parentName: Ref:Torax_Offset
+      position: {x: 0.000025862455, y: 0.004139118, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:HeadNeck_Ctrls_null
+      parentName: Ref:Torax_Ctrl
+      position: {x: -0.00006479635, y: 0.0000000047683715, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Head_Ctrl
+      parentName: Ref:HeadNeck_Ctrls_null
+      position: {x: 0.00021675363, y: 0.013704371, z: -0.0011144961}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Neck_Ctrl
+      parentName: Ref:HeadNeck_Ctrls_null
+      position: {x: 0.00014753669, y: 0.008575019, z: -0.0011144961}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:ToraxCluster
+      parentName: Ref:Torax_Ctrl
+      position: {x: -0.000064796266, y: -0.0000000021281692, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Weist_Ctrl
+      parentName: Ref:Body_Ctrl
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:WeistCluster
+      parentName: Ref:Weist_Ctrl
+      position: {x: -6.464887e-11, y: -7.323903e-11, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Foot_Ctrl
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0.002923676, y: 0, z: -0.00503911}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:AnkleToe_null
+      parentName: Ref:L_Foot_Ctrl
+      position: {x: -0.00084542506, y: 0.0034313544, z: 0.002304856}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallY_null
+      parentName: Ref:AnkleToe_null
+      position: {x: -0.000000005960464, y: -0.001286876, z: 0.005468484}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:ToeAnkle_null
+      parentName: Ref:BallY_null
+      position: {x: -0.0000000077486035, y: -0.0007508144, z: 0.007720246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallAnkle_null
+      parentName: Ref:ToeAnkle_null
+      position: {x: 0.0000000077486035, y: 0.0007508144, z: -0.007720246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Ankle_IK
+      parentName: Ref:BallAnkle_null
+      position: {x: 0.000000005066395, y: 0.0012868453, z: -0.005468486}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallToe_null
+      parentName: Ref:ToeAnkle_null
+      position: {x: 0.0000000077486035, y: 0.0007508144, z: -0.007720246}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Toe_IK
+      parentName: Ref:BallToe_null
+      position: {x: -0.0000000062584875, y: -0.0007507737, z: 0.0077202544}
+      rotation: {x: 0.034260955, y: 0.706276, z: 0.034260802, w: 0.7062766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_Ball_IK
+      parentName: Ref:ToeAnkle_null
+      position: {x: 0.0000000077486035, y: 0.00075081317, z: -0.0077202404}
+      rotation: {x: 0.08152997, y: 0.70239055, z: 0.08152982, w: 0.70239115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:L_KneeCtrl
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0.002884862, y: 0.029713392, z: 0.024149839}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:pCube8
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.00029582056, y: 0.012161274, z: -0.0016819882}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface1
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform6
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface2
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform7
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface2
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface3
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0037375053, y: 0.038607545, z: 0.0005504212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.1107428, y: 1.1107428, z: 1.1107428}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform8
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface3
+      position: {x: -0.0034026813, y: -0.004045136, z: 0.0016990589}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface7
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform9
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface10
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform10
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface10
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface11
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.00023982784, y: 0.05706674, z: 0.00084321416}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 2.4728155, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform11
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface11
+      position: {x: -0.00014860064, y: -0.02250433, z: 0.0015986245}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface12
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform21
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface12
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface13
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform19
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface13
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface14
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform20
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface14
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface15
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform22
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface15
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface16 1
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform23
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface16 1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface17
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCube8
+      position: {x: 0.0000912272, y: 0.03456241, z: 0.0022494802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform18
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface17
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:pCylinder6
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0.008022453, y: 0.003499353, z: -0.0011253979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface32
+      parentName: Ref:Modelagem_robo_gigante_pronto:pCylinder6
+      position: {x: 0.0084095, y: 0.043224327, z: 0.0011253979}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform14
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface32
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface16
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.0014217735, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface51
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.0007036935, y: 0.06500821, z: -0.0010902229}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform17
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface51
+      position: {x: -0, y: -0.01828452, z: 0.0010902229}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      parentName: AnimatedRobot(Clone)
+      position: {x: 1.4642537e-10, y: -0.021186994, z: 0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface66
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      position: {x: -1.4642537e-10, y: 0.06787531, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform13
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface66
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface68
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      position: {x: -1.4642537e-10, y: 0.06787531, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform12
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface68
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface70
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      position: {x: -1.4642537e-10, y: 0.06787531, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform15
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface70
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface72
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      position: {x: -1.4642537e-10, y: 0.06787531, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform16
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface72
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface74
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface57
+      position: {x: -1.4642537e-10, y: 0.06787531, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform3
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface74
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:polySurface67
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0.004829016, y: 0.04679339, z: 0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform4
+      parentName: Ref:Modelagem_robo_gigante_pronto:polySurface67
+      position: {x: 0.00610725, y: -0.000105074585, z: -0.002360759}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:pSphere3
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.0006700116, y: 0.07653692, z: -0.00055108324}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:Modelagem_robo_gigante_pronto:transform5
+      parentName: Ref:Modelagem_robo_gigante_pronto:pSphere3
+      position: {x: -0.0006700116, y: -0.028943965, z: 0.0015090834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Foot_Ctrl
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.008765352, y: 0, z: -0.00503911}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:AnkleToe_null 1
+      parentName: Ref:R_Foot_Ctrl
+      position: {x: -0.00088867685, y: 0.0034314715, z: 0.0023048674}
+      rotation: {x: 0.00003434331, y: 0.0024868143, z: -0.013808804, w: 0.9999016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallY_null 1
+      parentName: Ref:AnkleToe_null 1
+      position: {x: -0.000090978145, y: -0.0012900379, z: 0.005466976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:ToeAnkle_null 1
+      parentName: Ref:BallY_null 1
+      position: {x: -0.00012742518, y: -0.0007552932, z: 0.0077187824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallAnkle_null 1
+      parentName: Ref:ToeAnkle_null 1
+      position: {x: 0.00012742518, y: 0.0007552932, z: -0.0077187824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Ankle_IK
+      parentName: Ref:BallAnkle_null 1
+      position: {x: 0.00009097934, y: 0.0012900078, z: -0.0054669785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:BallToe_null 1
+      parentName: Ref:ToeAnkle_null 1
+      position: {x: 0.00012742518, y: 0.0007552932, z: -0.0077187824}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Toe_IK
+      parentName: Ref:BallToe_null 1
+      position: {x: -0.00012742697, y: -0.0007552534, z: 0.007718791}
+      rotation: {x: 0.7004296, y: -0.034521, z: 0.7120551, w: -0.0344133}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_Ball_IK
+      parentName: Ref:ToeAnkle_null 1
+      position: {x: 0.00012742459, y: 0.000755292, z: -0.0077187773}
+      rotation: {x: 0.6965399, y: -0.08139747, z: 0.7081464, w: -0.08206938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:R_KneeCtrl
+      parentName: AnimatedRobot(Clone)
+      position: {x: 0.007115138, y: 0.029713392, z: 0.024149839}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Ref:ROOT
+      parentName: AnimatedRobot(Clone)
+      position: {x: -0.00000087707303, y: 0.05270876, z: 0}
+      rotation: {x: -0, y: -0, z: 0.00021920764, w: 1}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Ref:L_Hip
+      parentName: Ref:ROOT
+      position: {x: -0.004263107, y: -0.0019959952, z: 0}
+      rotation: {x: 0.5071992, y: 0.48528656, z: 0.49696618, w: 0.5101672}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: Ref:L_Knee
+      parentName: Ref:L_Hip
+      position: {x: -0.021011245, y: -1.2588333e-17, z: 0.00003464042}
+      rotation: {x: -0.9990413, y: -0.043777823, z: 0.00015741587, w: -0.000006943941}
+      scale: {x: 1.0000008, y: 1.0000005, z: 1.0000004}
+    - name: Ref:L_Calcanhar
+      parentName: Ref:L_Knee
+      position: {x: -0.02641787, y: -3.6637358e-17, z: -4.645851e-18}
+      rotation: {x: 0.75299996, y: 0.65775526, z: 0.018221298, w: 0.0041215084}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000001}
+    - name: Ref:L_PeMeio
+      parentName: Ref:L_Calcanhar
+      position: {x: -0.0056178616, y: 1.6653345e-18, z: 2.9184113e-18}
+      rotation: {x: -0.000000027008351, y: 0.00000004423782, z: -0.067036115, w: 0.9977505}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: Ref:L_PePonta
+      parentName: Ref:L_PeMeio
+      position: {x: -0.0077566686, y: 6.5225603e-18, z: 1.5461687e-11}
+      rotation: {x: -0.03425225, y: -0.7062768, z: -0.03425217, w: 0.70627666}
+      scale: {x: 0.9999997, y: 1, z: 0.99999976}
+    - name: Ref:joint1
+      parentName: Ref:ROOT
+      position: {x: -0.00002421676, y: 0.0037536798, z: 0}
+      rotation: {x: -0, y: -0, z: -0.7039292, w: 0.7102702}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1}
+    - name: Ref:joint2
+      parentName: Ref:joint1
+      position: {x: -0.004139302, y: -1.6479873e-19, z: 0}
+      rotation: {x: -0, y: -0, z: 0.0013477802, w: 0.99999917}
+      scale: {x: 0.99999976, y: 0.99999976, z: 1}
+    - name: Ref:joint3
+      parentName: Ref:joint2
+      position: {x: -0.003246609, y: -3.719247e-17, z: 0}
+      rotation: {x: -0, y: -0, z: 0.33638954, w: 0.9417229}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Ref:L_Shldr_Roll
+      parentName: Ref:joint3
+      position: {x: -0.006624524, y: -1.110223e-18, z: 0}
+      rotation: {x: -5.844519e-26, y: 5.6414586e-26, z: 0.55840325, w: 0.82956976}
+      scale: {x: 1.0000006, y: 1.0000006, z: 1}
+    - name: Ref:L_Shldr
+      parentName: Ref:L_Shldr_Roll
+      position: {x: -0.005028086, y: -5.551115e-19, z: 0}
+      rotation: {x: -0.017126419, y: 0.034597952, z: -0.1889364, w: 0.98123026}
+      scale: {x: 1, y: 0.99999976, z: 1.0000004}
+    - name: Ref:L_Elbow
+      parentName: Ref:L_Shldr
+      position: {x: -0.013844786, y: 4.1588317e-18, z: -0.0010343359}
+      rotation: {x: 0.000004898754, y: -0.0029329732, z: 0.0037112583, w: 0.9999888}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+    - name: Ref:L_Wrist
+      parentName: Ref:L_Elbow
+      position: {x: -0.015193919, y: -0.000013299267, z: 0}
+      rotation: {x: 0.016186135, y: 0.00026578867, z: -0.016142426, w: 0.99973875}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000002}
+    - name: Ref:L_Hand
+      parentName: Ref:L_Wrist
+      position: {x: -0.0036885259, y: -0.0000014650858, z: 3.5728254e-11}
+      rotation: {x: 0.0000000037252894, y: -8.731147e-10, z: 0.00019882858, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: Ref:R_Shldr_Roll
+      parentName: Ref:joint3
+      position: {x: -0.0011485994, y: 0.0065241572, z: 0}
+      rotation: {x: 0.961035, y: 0.27642685, z: -1.6926266e-17, w: -5.884644e-17}
+      scale: {x: 1, y: 1.0000011, z: 1.0000011}
+    - name: Ref:R_Shldr
+      parentName: Ref:R_Shldr_Roll
+      position: {x: 0.005028074, y: -0.0000000018035892, z: 2.2087598e-25}
+      rotation: {x: -0.017185453, y: 0.034609515, z: -0.18893604, w: 0.9812289}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1.0000001}
+    - name: Ref:R_Elbow
+      parentName: Ref:R_Shldr
+      position: {x: 0.013844748, y: -0.000000071128845, z: 0.0010343399}
+      rotation: {x: 0.0000048801285, y: -0.0029335904, z: 0.0037110029, w: 0.99998885}
+      scale: {x: 1.0000008, y: 1.000001, z: 1.0000011}
+    - name: Ref:R_Wrist
+      parentName: Ref:R_Elbow
+      position: {x: 0.015193942, y: 0.000013361054, z: 1.2490008e-18}
+      rotation: {x: 0.01742973, y: 0.0002896813, z: -0.016296355, w: 0.99971527}
+      scale: {x: 1.0000002, y: 1.0000013, z: 1.0000012}
+    - name: Ref:R_Hand
+      parentName: Ref:R_Wrist
+      position: {x: 0.0036884996, y: 0.0000014664638, z: -3.090306e-14}
+      rotation: {x: 0.000000014901159, y: -7.2759565e-10, z: 0.00019877352, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000006}
+    - name: Ref:Neck_root
+      parentName: Ref:joint3
+      position: {x: -0.0039614285, y: 0.0035688244, z: -0.0011144961}
+      rotation: {x: -0.937341, y: 0.3484134, z: 2.1334173e-17, w: -5.7395575e-17}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Ref:Head_1
+      parentName: Ref:Neck_root
+      position: {x: -0.0051298174, y: 9.627715e-19, z: -1.3877787e-19}
+      rotation: {x: 0.9998345, y: -0.018194078, z: -1.1140666e-18, w: 6.12222e-17}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Ref:Head_2
+      parentName: Ref:Head_1
+      position: {x: -0.004666673, y: -1.7347234e-20, z: -1.6241321e-20}
+      rotation: {x: -6.617444e-24, y: 3.5155172e-24, z: 0.69896543, w: 0.71515554}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: Ref:R_Hip
+      parentName: Ref:ROOT
+      position: {x: 0.0042631114, y: -0.0019959593, z: 0}
+      rotation: {x: -0.5107306, y: 0.49879703, z: -0.48376152, w: 0.5062911}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000002}
+    - name: Ref:R_Knee
+      parentName: Ref:R_Hip
+      position: {x: 0.02101131, y: -8.6129237e-10, z: -0.000034651086}
+      rotation: {x: 0.9991168, y: 0.04202194, z: -0.00018423796, w: 0.000007748603}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: Ref:R_Calcanhar
+      parentName: Ref:R_Knee
+      position: {x: 0.026417844, y: 0.0000000017635287, z: -0.0000000068418102}
+      rotation: {x: 0.7533717, y: 0.6566552, z: 0.0346411, w: 0.005920527}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000007}
+    - name: Ref:R_PeMeio
+      parentName: Ref:R_Calcanhar
+      position: {x: 0.005617856, y: -0.0000000049875353, z: -0.000000005862353}
+      rotation: {x: -0.000000068452195, y: -0, z: -0.067036286, w: 0.9977505}
+      scale: {x: 1.000001, y: 1.000001, z: 1.000001}
+    - name: Ref:R_PePonta
+      parentName: Ref:R_PeMeio
+      position: {x: 0.0077566938, y: 0.000000003290911, z: 0.0000000021095792}
+      rotation: {x: -0.034252115, y: -0.70627666, z: -0.03425218, w: 0.7062767}
+      scale: {x: 0.9999999, y: 1.0000008, z: 1.0000004}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

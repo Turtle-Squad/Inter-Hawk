@@ -17,6 +17,7 @@ public class AviaoFase3Controller : MonoBehaviour
     public bool podeAtirar;
     private Quaternion from;
     private Quaternion to;
+    private Quaternion bulletQuat = Quaternion.Euler(-90, 0, 0);
     private float tempoTiro;
     private bool atira;
 
@@ -37,8 +38,8 @@ public class AviaoFase3Controller : MonoBehaviour
 
                 if (tempoTiro <= 0)
                 {
-                    Instantiate(bullet, new Vector3(aviao.transform.position.x - 1.7f, aviao.transform.position.y, aviao.transform.position.z), Quaternion.identity);
-                    Instantiate(bullet, new Vector3(aviao.transform.position.x + 1.7f, aviao.transform.position.y, aviao.transform.position.z), Quaternion.identity);
+                    Instantiate(bullet, new Vector3(aviao.transform.position.x - 1.7f, aviao.transform.position.y, aviao.transform.position.z), bulletQuat);
+                    Instantiate(bullet, new Vector3(aviao.transform.position.x + 1.7f, aviao.transform.position.y, aviao.transform.position.z), bulletQuat);
                 }
                 atira = true;
             }

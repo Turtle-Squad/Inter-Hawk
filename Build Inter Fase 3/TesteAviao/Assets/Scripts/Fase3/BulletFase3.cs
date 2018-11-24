@@ -6,7 +6,7 @@ public class BulletFase3 : MonoBehaviour
 {
     private Rigidbody corpo;
     public Transform direction;
-    public Vector3 target = new Vector3(0, 1.186f, 0);
+    public Transform target;
     // Use this for initialization
     void Start()
     {
@@ -16,8 +16,7 @@ public class BulletFase3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(target);
-        corpo.AddForce(direction.forward * 500);
+        corpo.AddForce((target.transform.position - transform.position) * 5);
 
         if (transform.position.z > 500)
         {
@@ -29,7 +28,7 @@ public class BulletFase3 : MonoBehaviour
             Destroy(gameObject);
         }
 
-        if (transform.position == target)
+        if (transform.position == target.transform.position)
         {
             Destroy(gameObject);
         }

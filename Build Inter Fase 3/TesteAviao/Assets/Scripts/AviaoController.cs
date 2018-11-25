@@ -34,25 +34,6 @@ public class AviaoController : MonoBehaviour {
         anim.SetBool("esquerda", esquerda);
         anim.SetBool("direita", direita);
 
-
-        if (Input.GetMouseButton(0)){
-
-            if (tempoTiro <= 0) {
-                Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, transform.position.z - 1.7f), Quaternion.identity);
-                Instantiate(bullet, new Vector3(transform.position.x, transform.position.y, transform.position.z + 1.7f), Quaternion.identity);
-            }
-            atira = true;
-        }
-
-        if (atira == true)
-        {
-            tempoTiro += Time.deltaTime;
-            if (tempoTiro > 0.15f)
-            {
-                tempoTiro = 0;
-                atira = false;
-            }
-        }
     }
 
     void PositionChange() {

@@ -12,7 +12,7 @@ public class CenarioController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.position = new Vector3(transform.position.x - 20.0f, transform.position.y, transform.position.z);
+        transform.position = new Vector3(transform.position.x - 1.0f, transform.position.y, transform.position.z);
 
         if(transform.position.x <= -1800)
         {

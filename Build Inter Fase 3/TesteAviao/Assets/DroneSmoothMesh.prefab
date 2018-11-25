@@ -21,9 +21,12 @@ GameObject:
   - component: {fileID: 4706295261112388}
   - component: {fileID: 33460086168095616}
   - component: {fileID: 23594021866481082}
+  - component: {fileID: 114522078865859618}
+  - component: {fileID: 65021964883497396}
+  - component: {fileID: 54771964907380324}
   m_Layer: 0
   m_Name: DroneSmoothMesh
-  m_TagString: Untagged
+  m_TagString: Drone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1423527946092702}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -11.54512, y: 20.7, z: 94.87}
-  m_LocalScale: {x: 583.2464, y: 493.61563, z: 583.2464}
+  m_LocalPosition: {x: -18.78, y: 20.7, z: 94.87}
+  m_LocalScale: {x: 176.7747, y: 149.60873, z: 176.7747}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -83,3 +86,43 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1423527946092702}
   m_Mesh: {fileID: 4300000, guid: 58b63ee723a869f49bc72c9b43cd16d2, type: 3}
+--- !u!54 &54771964907380324
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1423527946092702}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &65021964883497396
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1423527946092702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07038255, y: 0.023041602, z: 0.050814904}
+  m_Center: {x: 0, y: 0.00073613646, z: 0.00011015219}
+--- !u!114 &114522078865859618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1423527946092702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 035f6ce7d96f6fe42bf2114a5ab653e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  explode: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 2}

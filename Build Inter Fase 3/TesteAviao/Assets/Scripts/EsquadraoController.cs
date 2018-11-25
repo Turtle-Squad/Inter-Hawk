@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class EsquadraoController : MonoBehaviour {
-    public AviaoController aviaoBot1, aviaoBot2, aviaoBot3, aviaoBot4, aviaoBot5, aviaoBot6, aviaoBot7;
+    public AviaoController aviaoBot1, aviaoBot2, aviaoBot3;
 
     private float mid, left, rigth, tempoTiro;
     private Vector3 newPosition;
@@ -36,10 +36,6 @@ public class EsquadraoController : MonoBehaviour {
                 aviaoBot1.esquerda = true;
                 aviaoBot2.esquerda = true;
                 aviaoBot3.esquerda = true;
-                aviaoBot4.esquerda = true;
-                aviaoBot5.esquerda = true;
-                aviaoBot6.esquerda = true;
-                aviaoBot7.esquerda = true;
                 
             }
 
@@ -49,10 +45,7 @@ public class EsquadraoController : MonoBehaviour {
                 aviaoBot1.esquerda = true;
                 aviaoBot2.esquerda = true;
                 aviaoBot3.esquerda = true;
-                aviaoBot4.esquerda = true;
-                aviaoBot5.esquerda = true;
-                aviaoBot6.esquerda = true;
-                aviaoBot7.esquerda = true;
+
             }
 
         }
@@ -65,10 +58,7 @@ public class EsquadraoController : MonoBehaviour {
                 aviaoBot1.direita = true;
                 aviaoBot2.direita = true;
                 aviaoBot3.direita = true;
-                aviaoBot4.direita = true;
-                aviaoBot5.direita = true;
-                aviaoBot6.direita = true;
-                aviaoBot7.direita = true;
+
             }
             if (transform.position.z > -12f && transform.position.z < -8.5f)
             {
@@ -77,10 +67,7 @@ public class EsquadraoController : MonoBehaviour {
                 aviaoBot1.direita = true;
                 aviaoBot2.direita = true;
                 aviaoBot3.direita = true;
-                aviaoBot4.direita = true;
-                aviaoBot5.direita = true;
-                aviaoBot6.direita = true;
-                aviaoBot7.direita = true;
+
             }
         }
 

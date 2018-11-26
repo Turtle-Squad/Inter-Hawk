@@ -4,7 +4,7 @@ public class AviaoFase1Controller : MonoBehaviour {
 
     public float damage = 1.0f;
     public float fireRate = 15f;
-    public float health = 3;
+    public float health = 3f;
 
     public GameObject aviaomid, aviaoleft, aviaoright;
 
@@ -23,6 +23,10 @@ public class AviaoFase1Controller : MonoBehaviour {
         {
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
+        }
+        if (health <= 0)
+        {
+            Debug.Log("Game Over.");
         }
     }
 
@@ -56,7 +60,7 @@ public class AviaoFase1Controller : MonoBehaviour {
             GameObject explosion = Instantiate(explode, transform.position, Quaternion.identity);
             Destroy(explosion, 2f);
             Destroy(gameObject);
-                health -= 1f;
+               health -= 1f;
         }
     }
 }

@@ -10,6 +10,11 @@ public class SceneController : MonoBehaviour {
 
     public void Update()
     {
+        if (SceneManager.GetActiveScene().name == "Fase1")
+        {
+            StartCoroutine(CountDown(40f));
+        }
+
         if (Input.GetKeyDown(KeyCode.J))
         {
             AfterFase1();
@@ -102,5 +107,11 @@ public class SceneController : MonoBehaviour {
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public IEnumerator CountDown(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene("Cutscene2");
     }
 }

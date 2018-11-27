@@ -8,6 +8,11 @@ public class AviaoFase1Controller : MonoBehaviour {
 
     public GameObject aviaomid, aviaoleft, aviaoright;
 
+    public static bool podeAtirar = true;
+
+    public AudioSource machinegun;
+    public AudioSource plane;
+
     public GameObject crosshair;
     public Camera cam;
     public ParticleSystem muzzleFlash;
@@ -16,22 +21,34 @@ public class AviaoFase1Controller : MonoBehaviour {
     public GameObject explode;
 
     private float nextTimeToFire;
+
+    private void Start()
+    {
+        AudioSource[] audios = GetComponents<AudioSource>();
+        machinegun = audios[0];
+        plane = audios[1];
+    }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
+        if (podeAtirar == true)
         {
-            nextTimeToFire = Time.time + 1f / fireRate;
-            Shoot();
+            if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
+            {
+                nextTimeToFire = Time.time + 1f / fireRate;
+                Shoot();
+            }
+            if (health <= 0)
+            {
+                Debug.Log("Game Over.");
+            }
         }
-        if (health <= 0)
-        {
-            Debug.Log("Game Over.");
-        }
+
     }
 
     void Shoot()
     {
+        plane.Play();
         muzzleFlash.Play();
         muzzleFlash2.Play();
         RaycastHit hit;
@@ -46,6 +63,11 @@ public class AviaoFase1Controller : MonoBehaviour {
             if (drone != null)
             {
                 drone.TakeDamage(damage);
+            }
+            RobotFase3Controller robot = hit.transform.GetComponent<RobotFase3Controller>();
+            if (robot != null)
+            {
+                robot.TakeDamage(damage);
             }
 
             GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));

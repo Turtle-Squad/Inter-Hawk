@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EnemyHealthController : MonoBehaviour {
 
     Image barraDeVidaInimigo;
     public static float vidaInimigo;
-    float vidaMaximaInimigo = 500f;
+    float vidaMaximaInimigo = 2500f;
     // Use this for initialization
     void Start () {
         barraDeVidaInimigo = GetComponent<Image>();
@@ -20,7 +21,7 @@ public class EnemyHealthController : MonoBehaviour {
 
         if (vidaInimigo <= 0)
         {
-
+            SceneManager.LoadScene("CutsceneFinal");
         }
     }
 }

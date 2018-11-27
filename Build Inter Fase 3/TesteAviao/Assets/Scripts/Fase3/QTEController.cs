@@ -9,6 +9,7 @@ public class QTEController : MonoBehaviour
     public GameObject passBox;
     public GameObject displayAll;
     public GameObject LaserBeam, LaserBeamEnd;
+    public GameObject charge;
     static public bool playerHitado;
     public int QTEgen;
     public int WaitingForKey;
@@ -116,6 +117,7 @@ public class QTEController : MonoBehaviour
 
             yield return new WaitForSeconds(1.5f);
 
+            charge.SetActive(false);
             displayAll.SetActive(false);
             CorrectKey = 0;
             passBox.GetComponent<Text>().text = "";
@@ -123,6 +125,7 @@ public class QTEController : MonoBehaviour
 
             yield return new WaitForSeconds(Random.Range(1.5f, 3.0f));
 
+            charge.SetActive(true);
             displayAll.SetActive(true);
             WaitingForKey = 0;
             CountingDown = 1;
@@ -138,6 +141,7 @@ public class QTEController : MonoBehaviour
 
             yield return new WaitForSeconds(1.5f);
 
+            charge.SetActive(false);
             LaserBeam.SetActive(false);
             LaserBeamEnd.SetActive(false);
             displayAll.SetActive(false);
@@ -147,6 +151,7 @@ public class QTEController : MonoBehaviour
 
             yield return new WaitForSeconds(Random.Range(1.5f, 3.0f));
 
+            charge.SetActive(true);
             playerHitado = false;
             displayAll.SetActive(true);
             WaitingForKey = 0;
@@ -183,6 +188,7 @@ public class QTEController : MonoBehaviour
     IEnumerator AtStartCountDown()
     {
         yield return new WaitForSeconds(10.0f);
+        charge.SetActive(true);
         displayAll.SetActive(true);
         WaitingForKey = 0;
     }

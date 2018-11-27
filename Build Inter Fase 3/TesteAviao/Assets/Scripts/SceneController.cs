@@ -39,7 +39,10 @@ public class SceneController : MonoBehaviour {
     {
         m_Scene = SceneManager.GetActiveScene();
         sceneName = m_Scene.name;
-
+        if (sceneName == "CutsceneComeço")
+        {
+            AfterCutscene0();
+        }
         if (sceneName == "Cutscene1")
         {
             AfterCutscene1();
@@ -57,6 +60,13 @@ public class SceneController : MonoBehaviour {
             AfterCutsceneFinal();
         }
     }
+
+    public void AfterCutscene0()
+    {
+        SceneManager.LoadScene("Menu");
+        Cursor.lockState = CursorLockMode.None;
+    }
+
     public void AfterMenu()
     {
         SceneManager.LoadScene("Cutscene1");

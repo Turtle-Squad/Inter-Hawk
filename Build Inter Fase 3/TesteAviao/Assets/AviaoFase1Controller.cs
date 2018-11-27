@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AviaoFase1Controller : MonoBehaviour {
 
@@ -40,7 +41,7 @@ public class AviaoFase1Controller : MonoBehaviour {
             }
             if (health <= 0)
             {
-                Debug.Log("Game Over.");
+                SceneManager.LoadScene("Fase1");
             }
         }
 
